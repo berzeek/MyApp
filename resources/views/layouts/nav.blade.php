@@ -11,7 +11,7 @@
         {{--<li><a href="{{ URL::to('/tables') }}"><svg class="glyph stroked table"><use xlink:href="#stroked-table"></use></svg> Tables</a></li>--}}
         <li><a href="{{ URL::to('/forms') }}"><svg class="glyph stroked pencil"><use xlink:href="#stroked-pencil"></use></svg> Forms</a></li>
         <li><a href="{{ URL::to('/panels') }}"><svg class="glyph stroked app-window"><use xlink:href="#stroked-app-window"></use></svg> Alerts &amp; Panels</a></li>
-        {{--<li><a href="{{ URL::to('/icons') }}"><svg class="glyph stroked star"><use xlink:href="#stroked-star"></use></svg> Icons</a></li>--}}
+        <li><a href="{{ URL::to('/icons') }}"><svg class="glyph stroked star"><use xlink:href="#stroked-star"></use></svg> Icons</a></li>
         <li class="parent ">
             <a href="#">
                 <span data-toggle="collapse" href="#sub-item-1"><svg class="glyph stroked chevron-down"><use xlink:href="#stroked-chevron-down"></use></svg></span> Dropdown
