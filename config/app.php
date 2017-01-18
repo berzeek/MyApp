@@ -103,7 +103,8 @@ return [
     |
     */
 
-    'key' => env('APP_KEY'),
+    /*'key' => env('APP_KEY'),*/
+    'key' => 'TY47%IGTAtn-4MV59-(KaLn01$@Awufo',
 
     'cipher' => 'AES-256-CBC',
 
