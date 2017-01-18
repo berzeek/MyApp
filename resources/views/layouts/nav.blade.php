@@ -8,7 +8,7 @@
         <li class="active"><a href="{{ URL::to('/dash') }}"><svg class="glyph stroked dashboard-dial"><use xlink:href="#stroked-dashboard-dial"></use></svg> Dashboard</a></li>
         <li><a href="{{ URL::to('/widgets') }}"><svg class="glyph stroked calendar"><use xlink:href="#stroked-calendar"></use></svg> Widgets</a></li>
         <li><a href="{{ URL::to('/charts') }}"><svg class="glyph stroked line-graph"><use xlink:href="#stroked-line-graph"></use></svg> Charts</a></li>
-        <li><a href="{{ URL::to('/tables') }}"><svg class="glyph stroked table"><use xlink:href="#stroked-table"></use></svg> Tables</a></li>
+        {{--<li><a href="{{ URL::to('/tables') }}"><svg class="glyph stroked table"><use xlink:href="#stroked-table"></use></svg> Tables</a></li>--}}
         <li><a href="{{ URL::to('/forms') }}"><svg class="glyph stroked pencil"><use xlink:href="#stroked-pencil"></use></svg> Forms</a></li>
         <li><a href="{{ URL::to('/panels') }}"><svg class="glyph stroked app-window"><use xlink:href="#stroked-app-window"></use></svg> Alerts &amp; Panels</a></li>
         <li><a href="{{ URL::to('/icons') }}"><svg class="glyph stroked star"><use xlink:href="#stroked-star"></use></svg> Icons</a></li>

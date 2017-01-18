@@ -40,7 +40,7 @@ Route::get('/panels', function () {
 });
 
 Route::get('/tables', function () {
-    return view('tables');
+    return view('dash');
 });
 
 Route::get('/widgets', function () {
