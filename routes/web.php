@@ -46,3 +46,7 @@ Route::get('/tables', function () {
 Route::get('/widgets', function () {
     return view('widgets');
 });
+
+Route::get('/test', function () {
+    return view('test');
+});
