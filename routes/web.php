@@ -19,6 +19,10 @@ Route::get('/dash', function () {
     return view('dash');
 });
 
+Route::get('/login', function () {
+    return view('login');
+});
+
 Route::get('/charts', function () {
     return view('charts');
 });
