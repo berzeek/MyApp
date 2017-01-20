@@ -441,7 +441,7 @@
             return this.c(this.s(), {
                 "stroke-linejoin": "round",
                 "stroke-miterlimit": "1",
-                "stroke-width": "1",
+                "stroke-width": "0.5",
                 points: this.a.map(function(a) {
                     return a.x + " " + a.y
                 }).join(" "),
