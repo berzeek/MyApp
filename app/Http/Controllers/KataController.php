@@ -10,14 +10,14 @@ class KataController extends Controller {
         return view('kata');
     }
 
-    public function post_kata()
+    public function receive()
     {
-
+        return 'test';
     }
 
-    public function get_kata()
+    public function send()
     {
-
+        return 'test';
     }
 
 }

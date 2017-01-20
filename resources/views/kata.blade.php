@@ -18,19 +18,18 @@
 <button id="post-button">Post Request</button>
 
 <script>
-    var getText = $("#get-text");
+    var getText = $("#get-text").val();
     var getButton = $("#get-button");
 
-    var postText = $("#post-text");
+    var postText = $("#post-text").val();
     var postButton = $("#post-button");
 
     getButton.click(function(){
         // This is the GET Request
         $.ajax({
             type: "GET",
-            url: "http://requestb.in/1d6v2u71",
+            url: "/kata/receive",
             data: getText,
-            cache: false,
             success: function(data){
                 getText.text(data);
             }
@@ -41,9 +40,8 @@
         // This is the POST Request
         $.ajax({
             type: "POST",
-            url: "http://requestb.in/1d6v2u71",
+            url: "/kata/post",
             data: postText,
-            cache: false,
             success: function(data){
                 postText.text(data);
             }
