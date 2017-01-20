@@ -56,3 +56,7 @@ Route::get('/kata', 'KataController@index');
 Route::get('/suninmotion', function () {
     return view('suninmotion');
 });
+
+Route::get('/lightsaber', function () {
+    return view('lightsaber');
+});
